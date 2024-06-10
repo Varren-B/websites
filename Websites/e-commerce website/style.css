@@ -1,0 +1,68 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(233, 230, 230);
+    font-size: 25px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+}
+
+section button{
+    height: 40px;
+    font-size: 25px;
+    background-color: rgba(255, 192, 203, 0.76);
+    border-radius: 10px;
+}
+
+span a{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(37, 161, 233);
+}
+
+button :hover{
+    color: white;
+    background-color: rgba(0, 140, 255, 0.527);
+}
+
+.about{
+    justify-content: center;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 700px;
+}

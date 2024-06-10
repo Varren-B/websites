@@ -1,0 +1,18 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.countdown {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    animation: countdown 60s linear forwards;
+}
